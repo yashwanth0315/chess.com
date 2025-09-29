@@ -1,0 +1,15 @@
+{
+  "name": "realtime-chess-game",
+  "version": "1.0.0",
+  "description": "A real-time chess game using Node.js, Express, and Socket.IO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}

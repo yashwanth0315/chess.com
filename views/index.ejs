@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Chess</h1>
+        <div id="chessboard" class="chessboard"></div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    
+    <!-- ✅ Correct chess.js CDN -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chess.js@0.13.4/chess.min.js"></script> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+
+    <script src="/js/chessGame.js"></script>
+</body>
+</html>
